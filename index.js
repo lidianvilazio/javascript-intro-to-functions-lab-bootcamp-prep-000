@@ -1,10 +1,10 @@
 
 if(string.toUpperCase() === "HELLO") {
   whisper();
-  sayHiToGrandma()
+  sayHiToGrandma(string)
 } else if(string.toLowerCase() === "hello") {
   shout();
-  sayHiToGrandma();
+  sayHiToGrandma(string);
 }
 
 function shout(string) {
