@@ -1,7 +1,7 @@
 
 if(string.toUpperCase() === "HELLO") {
   whisper();
-  sayHiToGrandma
+  sayHiToGrandma()
 } else if(string.toLowerCase() === "hello") {
   shout();
   sayHiToGrandma();
