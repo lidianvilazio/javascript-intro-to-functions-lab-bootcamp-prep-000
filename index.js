@@ -1,6 +1,7 @@
 
 if(string.toUpperCase() === "HELLO") {
-  whisper();
+  whisper()
+  logShout()
   sayHiToGrandma(string)
 } else if(string.toLowerCase() === "hello") {
   shout();
@@ -24,9 +25,9 @@ function sayHiToGrandma(string) {
 }
 
 function logShout(string){
-
+  console.log(string)
 }
 
 function logWhisper(string){
-  
+
 }
