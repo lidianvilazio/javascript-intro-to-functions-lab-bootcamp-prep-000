@@ -3,6 +3,7 @@ if(string.toUpperCase() === "HELLO") {
   whisper();
 } else if(string.toLowerCase() === "hello") {
   shout();
+  sayHiToGrandma();
 }
 
 function shout(string) {
@@ -11,4 +12,8 @@ function shout(string) {
 
 function whisper(string) {
   return  string.toLowerCase()
+}
+
+function sayHiToGrandma(string) {
+  console.log("I can't hear you!")
 }
